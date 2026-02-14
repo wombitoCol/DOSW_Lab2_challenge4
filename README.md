@@ -1,4 +1,4 @@
-# RETO #4: La Estafa de la Casa de Cambio
+# RETO #4: La Casa de Cambio
 
 ## Patrón de Diseño
 - **Categoría:** Comportamiento
