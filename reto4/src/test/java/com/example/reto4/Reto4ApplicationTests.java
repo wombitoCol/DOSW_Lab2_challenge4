@@ -1,10 +1,10 @@
-package com.casa.cambio.currency_converter;
+package com.example.reto4;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CurrencyConverterApplicationTests {
+class Reto4ApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.10</version>
+		<version>4.0.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.casa.cambio</groupId>
-	<artifactId>currency-converter</artifactId>
+	<groupId>com.example</groupId>
+	<artifactId>reto4</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>currency-converter</name>
+	<name>reto4</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

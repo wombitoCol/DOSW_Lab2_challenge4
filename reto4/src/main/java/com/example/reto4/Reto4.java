@@ -1,15 +1,19 @@
-package challenge4;
+package com.example.reto4;
 
-import java.util.*;
-import java.util.stream.*;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
-public class Main {
+public class Reto4 {
     private static final ExchangeStrategy STRATEGY = new RealExchangeStrategy();
 
-    public static void main(String[] args) {
-        try (Scanner sc = new Scanner(System.in)) {
-            List<Transaction> txs = Stream.of(sc)
-                    .peek(s -> System.out.println("=== CASA DE CAMBIO ==="))
+    public static void ejecutar() {
+        try (var sc = new Scanner(System.in)) {
+            var txs = Stream.of(sc)
+                    .peek(s -> System.out.println("CASA DE CAMBIO"))
                     .peek(s -> System.out.println("Monedas: USD, EUR, JPY, COP"))
                     .map(s -> pedirInt(s, "Transacciones: "))
                     .flatMap(n -> IntStream.rangeClosed(1, n)
@@ -25,7 +29,7 @@ public class Main {
                             }))
                     .collect(Collectors.toList());
 
-            System.out.println("\n=== RESULTADOS ===");
+            System.out.println("\nRESULTADOS");
             txs.forEach(Transaction::display);
 
             System.out.println("\n--- TOTALES ---");

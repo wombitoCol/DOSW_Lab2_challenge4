@@ -1,4 +1,4 @@
-package challenge4;
+package com.example.reto4;
 
 import java.util.*;
 import java.util.stream.Collectors;
