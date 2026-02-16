@@ -1,4 +1,4 @@
-# RETO #4: La Casa de Cambio
+# RETO #4: La Casa de Cambio Diego Ortiz - Brandon Peña - Julio Mayorquin
 
 ## Patrón de Diseño
 - **Categoría:** Comportamiento
